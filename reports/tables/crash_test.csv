@@ -1,0 +1,7 @@
+trial,offset_store,expected_rows,rows,duplicate_rows,missing_files
+0,file,21931,23048,1117,0
+0,snapshot,21931,21931,0,0
+1,file,21931,22975,1044,0
+1,snapshot,21931,21931,0,0
+2,file,21931,23129,1198,0
+2,snapshot,21931,21931,0,0

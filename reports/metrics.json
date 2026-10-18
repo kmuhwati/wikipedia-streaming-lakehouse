@@ -1,0 +1,109 @@
+{
+  "capture": {
+    "first_event_utc": "2026-10-18 18:24:10.242000+02:00",
+    "last_event_utc": "2026-10-18 19:29:12.936000+02:00",
+    "hours": 1.08,
+    "events": 157412,
+    "events_per_second": 40.3,
+    "wikis": 230
+  },
+  "event_types": {
+    "categorize": 77299,
+    "edit": 67546,
+    "log": 9828,
+    "new": 2739
+  },
+  "stream_lag_seconds": {
+    "clock_offset_corrected": 1.27,
+    "p50": 0.07,
+    "share_within_5s": 0.8602831329586683,
+    "edits_delivered_late_after_restart": 8988
+  },
+  "wikidata_share_of_edits": 0.24249839937397738,
+  "bot_share_of_edits": 0.3361599203243935,
+  "enwiki_articles": {
+    "edits": 4916,
+    "revert_share": 0.043124491456468676,
+    "bot_share": 0.05471928397070789,
+    "anon_share": 0.1145240032546786,
+    "articles": 3385
+  },
+  "enwiki_articles_with_3plus_reverts": 6,
+  "lake_checks": {
+    "landed_events": 157412,
+    "bronze_rows": 157412,
+    "bronze_matches_landing": true,
+    "stream_replays_in_bronze": 0,
+    "silver_rows": 70285,
+    "silver_unique_ids": true,
+    "hourly_matches_silver": true,
+    "scd2_titles": 3385,
+    "scd2_current_rows": 3385,
+    "scd2_interval_gaps": 0,
+    "scd2_titles_with_two_current": 0
+  },
+  "replay": {
+    "micro_batches": 29,
+    "events_per_batch": 5428.0,
+    "seconds_per_batch_p50": 1.9896094999858178,
+    "seconds_per_batch_p95": 2.7058499000093432,
+    "events_per_second": 2864.569716176936,
+    "replay_duplicates_removed": 0
+  },
+  "cdc": {
+    "edits": 1733,
+    "baselines": 981,
+    "unavailable": 0,
+    "revisions": 2714,
+    "embedded": 22217,
+    "closed": 1169,
+    "already_applied": 0,
+    "out_of_order": 0,
+    "tracked_titles": 1000,
+    "seconds": 213.22092079999857,
+    "edits_applied": 1714,
+    "chunks_full_reembed": 41087,
+    "chunks_cdc_embedded": 1455,
+    "chunks_closed": 1372,
+    "embedding_savings": 0.9645873390610169,
+    "edits_changing_no_prose": 0.5367561260210035,
+    "index_rows": 22217,
+    "index_live_rows": 20845
+  },
+  "index_consistency": {
+    "articles_checked": 1001,
+    "articles_matching_source": 1001,
+    "mismatches": 0
+  },
+  "freshness_probes": {
+    "probes": 300,
+    "fresh_index_returns_current": 1.0,
+    "stale_index_returns_outdated": 0.66,
+    "stale_index_same_article": 0.9666666666666667
+  },
+  "crash_test": {
+    "file": {
+      "duplicate_rows": 3359,
+      "missing_files": 0
+    },
+    "snapshot": {
+      "duplicate_rows": 0,
+      "missing_files": 0
+    },
+    "trials": 3
+  },
+  "live": {
+    "minutes": 14.8,
+    "cycles": 60,
+    "revisions_indexed": 414,
+    "events": 37220,
+    "latency_p50_s": 17.291975617408752,
+    "latency_p95_s": 26.452919411659238,
+    "latency_max_s": 31.370900869369507,
+    "stream_lag_p50_s": 0.03403019905090332,
+    "clock_offset_corrected_s": 1.2677857875823975,
+    "tracked_titles_cap": 300,
+    "cycle_seconds_p50": 4.508203148841858,
+    "cycle_seconds_p95": 6.769998729228971
+  }
+}
