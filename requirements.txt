@@ -3,6 +3,7 @@ pyarrow>=15
 pandas>=2.2
 numpy>=1.26
 duckdb>=1.1
+pytz>=2024.1                # duckdb needs it to return timezone-aware timestamps
 pyiceberg[sql-sqlite,pyiceberg-core]>=0.12
 lancedb>=0.40
 wordllama>=0.4
